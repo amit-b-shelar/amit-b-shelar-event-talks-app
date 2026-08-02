@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Talks Event Schedule</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tech Talks Event</h1>
+        <p>A day filled with insightful technical discussions.</p>
+    </header>
+
+    <main>
+        <section class="controls">
+            <label for="category-filter">Filter by Category:</label>
+            <select id="category-filter">
+                <option value="all">All Categories</option>
+            </select>
+        </section>
+
+        <section id="schedule">
+            <h2>Event Schedule</h2>
+            <div id="talk-list">
+                <!-- Talks will be dynamically inserted here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Tech Talks Event</p>
+    </footer>
+
+    <script src="talksData.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

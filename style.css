@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.controls {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #e9e9e9;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.controls label {
+    font-weight: bold;
+}
+
+.controls select {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#schedule {
+    margin-top: 30px;
+}
+
+.talk-card, .break-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.talk-card h3 {
+    margin: 0;
+    color: #0056b3;
+}
+
+.talk-card p {
+    margin: 0;
+    font-size: 0.95em;
+}
+
+.talk-card .speakers, .talk-card .category {
+    font-style: italic;
+    color: #555;
+    font-size: 0.85em;
+}
+
+.talk-card .time {
+    font-weight: bold;
+    color: #666;
+}
+
+.break-card {
+    background-color: #f0f8ff;
+    border-color: #cceeff;
+    color: #31708f;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.9em;
+}
